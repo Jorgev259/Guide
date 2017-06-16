@@ -30,8 +30,9 @@ There have been reports of a wave of bans being handed out to CFW users by Ninte
 * The latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest) <label data-name="SafeB9SInstaller firm">
 * The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(standard boot9strap; not the `devkit` file, not the `ntr` file)*<label data-name="Boot9strap">
 * The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest) <label data-name="Godmode9">
-* The latest release of [the Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest)<label data-name="New HB Menu">
+* The Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)<label data-name="Homebrew Starter Kit">
 * Magic (∩ ͡° ͜ʖ ͡°)⊃━☆ﾟ <button id="download_btn" class="btn btn--success">Waiting</button>
+
 
 #### Instructions
 
@@ -43,7 +44,7 @@ For all steps in this section, overwrite any existing files on your SD card.
 1. Power off your device
 1. Insert your SD card into your computer
 1. **Leave the old (v7.1) version of Luma3DS (`boot.firm`) as it is. You will update this later.**
-1. Copy `boot.3dsx` to the root of your SD card
+1. Copy _the contents of_ the `starter` folder in `starter.zip` to the root of your SD card
 1. Create a folder named `boot9strap` on the root of your SD card
 1. Copy `GodMode9.firm` from the GodMode9 `.zip` to the `/luma/payloads/` folder on your SD card
 1. Copy `SafeB9SInstaller.firm` from the SafeB9SInstaller `.zip` to the `/luma/payloads/` folder on your SD card
