@@ -1,0 +1,455 @@
+{
+    "SafeB9SInstaller payload": {
+        "type": "github",
+        "repo": "d0k3/SafeB9SInstaller",
+        "version": "latest",
+        "steps": [
+            {
+                "name": "safeb9sinstaller",
+                "type": "extractFile",
+                "file": ".zip",
+                "fileExtract": "SafeB9SInstaller.bin",
+                "newName":"start_SafeB9SInstaller.bin",
+                "path": "luma/payloads"
+            }
+        ]
+
+    },
+
+    "SafeB9SInstaller firm": {
+        "type": "github",
+        "repo": "d0k3/SafeB9SInstaller",
+        "version": "latest",
+        "steps": [
+            {
+                "name": "safeb9sinstaller",
+                "type": "extractFile",
+                "file": ".zip",
+                "fileExtract": "SafeB9SInstaller.firm",
+                "newName":"SafeB9SInstaller.firm",
+                "path": "luma/payloads"
+            }
+        ]
+
+    },
+
+    "SafeB9SInstaller safehax": {
+        "type": "github",
+        "repo": "d0k3/SafeB9SInstaller",
+        "version": "latest",
+        "steps": [
+            {
+                "name": "safeb9sinstaller",
+                "type": "extractFile",
+                "file": ".zip",
+                "fileExtract": "SafeB9SInstaller.bin",
+                "newName":"safehaxpayload.bin",
+                "path": ""
+            }
+        ]
+
+    },
+
+    "SafeB9SInstaller Browser": {
+        "type": "github",
+        "repo": "d0k3/SafeB9SInstaller",
+        "version": "latest",
+        "steps": [
+            {
+                "file":".zip",
+                "type": "extractFile",
+                "files":[
+                    {
+                        "file":"SafeB9SInstaller.dat",
+                        "path":""
+                    },
+                    {
+                        "file":"Launcher.dat",
+                        "path":""
+                    }
+                ]
+            }
+        ]
+
+    },
+
+    "SafeB9SInstaller MSET": {
+        "type": "github",
+        "repo": "d0k3/SafeB9SInstaller",
+        "version": "latest",
+        "steps": [
+            {
+                "file":".zip",
+                "type": "extractFile",
+                "files":[
+                    {
+                        "file":"SafeB9SInstaller.dat",
+                        "path":""
+                    },
+                    {
+                        "file":"SafeB9SInstaller.dat",
+                        "path":"flashcart files"
+                    }
+                ]
+            }
+        ]
+
+    },
+
+    "Safehax":{
+        "type":"github",
+        "repo":"TiniVi/safehax",
+        "version":"latest",
+        "steps":[
+            {
+               "file":".3dsx",
+                "type":"addFile",
+                "name":"safehax.3dsx",
+                "path":"3ds"
+            }
+        ]
+    },
+
+    "Udsploit":{
+        "type":"github",
+        "repo":"smealum/udsploit",
+        "version":"latest",
+        "steps":[
+            {
+               "file":".3dsx",
+                "name":"udsploit.3dsx",
+                "type":"addFile",
+                "path":"3ds"
+            }
+        ]
+    },
+
+    "Luma3DS": {
+        "type": "direct",
+        "url":"https://github.com/rikumax25/3SDSetup/raw/master/7zfiles/AuroraWright_Luma3DS/luma.zip",
+        "steps": [
+            {
+                "type": "extractFile",
+                "fileExtract": "boot.firm",
+                "path": ""
+            }
+        ]
+    },
+
+    "Luma3DS a9lh":{
+        "type":"direct",
+        "url":"https://github.com/rikumax25/3SDSetup/raw/master/7zfiles/AuroraWright_Luma3DS/arm9loaderhax.bin",
+        "steps":[
+            {
+                "type":"addFile",
+                "name":"arm9loaderhax.bin",
+                "path":""
+            }
+        ]
+    },
+
+    "Luma3DS Legacy":{
+        "type":"direct",
+        "url":"https://3ds.guide/luma_legacy/cf0b05e/boot.firm",
+        "steps":[
+            {
+                "type":"addFile",
+                "name":"boot.firm",
+                "path":""
+            }
+        ]
+    },
+
+
+    "Luma Updater": {
+        "type": "github",
+        "repo": "KunoichiZ/lumaupdate",
+        "version": "latest",
+        "steps": [
+            {
+                "type": "addFile",
+                "file":".cia",
+                "name": "lumaupdater.cia",
+                "path": "cias"
+            }
+        ]
+    },
+
+    "FBI":{
+        "type":"github",
+        "version":"latest",
+        "repo":"Steveice10/FBI",
+        "steps":[
+            {
+                "type": "addFile",
+                "file": ".3dsx",
+                "name":"fbi.3dsx",
+                "path": "3ds"
+            },
+            {
+                "type": "addFile",
+                "name":"fbi.cia",
+                "file": ".cia",
+                "path": "cias"
+            }
+        ]
+    },
+
+    "HBL Loader":{
+        "type":"github",
+        "repo":"yellows8/hblauncher_loader",
+        "version":"latest",
+        "steps":[
+            {
+                "type":"extractFile",
+                "file":".zip",
+                "fileExtract":"hblauncher_loader.cia",
+                "path":"cias"
+            }
+        ]
+    },
+
+    "DSP1":{
+        "type":"github",
+        "version":"latest",
+        "repo":"zoogie/DSP1",
+        "steps":[
+            {
+                "type": "addFile",
+                "name": "dsp1.cia",
+                "file": ".cia",
+                "path": "cias"
+            }
+        ]
+    },
+
+    "Themely":{
+        "type":"github",
+        "version":"latest",
+        "repo":"ErmanSayin/Themely",
+        "steps":[
+            {
+                "type": "addFile",
+                "file": ".cia",
+                "name": "themely.cia",
+                "path": "cias"
+            }
+        ]
+    },
+
+    "Godmode9": {
+        "type": "github",
+        "repo": "d0k3/GodMode9",
+        "steps": [
+            {
+                "type": "extractFile",
+                "file": ".zip",
+                "fileExtract": "GodMode9.firm",
+                "path": "luma/payloads"
+            }
+        ]
+    },
+
+    "Boot9strap": {
+        "type": "github",
+        "repo": "SciresM/boot9strap",
+        "version": "latest",
+        "steps": [
+            {
+                "type": "extractFile",
+                "file": "boot9strap-1.2.zip",
+                "files": [
+                    {
+                        "file": "boot9strap.firm",
+                        "path": "boot9strap"
+                    },
+                    {
+                        "file": "boot9strap.firm.sha",
+                        "path": "boot9strap"
+                    }
+                ]
+
+            }
+        ]
+    },
+
+    "stuff": {
+        "type": "direct",
+        "url": "https://archive.org/download/testmp3testfile/testmp3testfile_64kb.m3u",
+        "steps": [
+            {
+                "type": "addFile",
+                "file": "testmp3testfile_64kb.m3u",
+                "path": ""
+            },
+            {
+                "type":"folder",
+                "name":"testFolder"
+            }
+        ]
+    },
+
+    "Homebrew Starter Kit":{
+        "type" :"direct",
+        "url":"https://smealum.github.io/ninjhax2/starter.zip",
+        "steps": [
+            {
+                "type":"extractFile",
+                "path":""
+            }
+
+        ]
+    },
+
+    "New HB Menu":{
+        "type" :"direct",
+        "url":"https://smealum.github.io/ninjhax2/starter.zip",
+        "steps": [
+            {
+                "type":"extractFile",
+                "path":"",
+                "fileExtract":"boot.3dsx"
+            }
+
+        ]
+    },
+
+    "otherapp":{
+        "type":"direct",
+        "url":"",
+        "steps": [
+            {
+                "type":"addFile",
+                "file":"otherapp.bin",
+                "path":""
+            }
+        ]
+    },
+
+    "Soundhax":{
+        "type":"direct",
+        "url":"",
+        "steps":[
+            {
+                "type":"addFile",
+                "file":"soundhax.m4a",
+                "path":""
+            }
+        ]
+    },
+
+    "Luma3DS legacy":{
+        "type":"direct",
+        "url":"https://3ds.guide/luma_legacy/cf0b05e/boot.firm",
+        "steps":[
+            {
+                "type":"addFile",
+                "file":"boot.firm",
+                "path":""
+            }
+        ]
+
+    },
+
+    "Native.firm":{
+        "type":"direct",
+        "url":"http://nus.cdn.c.shop.nintendowifi.net/ccs/download/0004013800000002/00000056",
+        "steps":[
+            {
+                "type":"addFile",
+                "file":"native.firm",
+                "path":"luma"
+            }
+        ]
+    },
+
+    "Cetk":{
+        "type":"direct",
+        "url":"http://nus.cdn.c.shop.nintendowifi.net/ccs/download/0004013800000002/cetk",
+        "steps":[
+            {
+                "type":"addFile",
+                "file":"cetk",
+                "path":"luma"
+            }
+        ]
+    },
+
+    "soundhaxList":{
+        "type":"list",
+        "steps":[
+            "Homebrew Starter Kit",
+            "otherapp",
+            "Soundhax"
+        ]
+    },
+
+    "b9s_hb":{
+        "type":"list",
+        "steps":[
+            "Safehax",
+            "SafeB9SInstaller safehax",
+            "Udsploit",
+            "Boot9strap",
+            "Luma3DS"
+        ]
+    },
+
+    "b9s_browser":{
+        "type":"list",
+        "steps":[
+            "Homebrew Starter Kit",
+            "Boot9strap",
+            "SafeB9SInstaller Browser"
+        ]
+    },
+
+    "b9s_mset":{
+        "type":"list",
+        "steps":[
+            "Homebrew Starter Kit",
+            "Boot9strap",
+            "SafeB9SInstaller MSET",
+            "Luma3DS"
+        ]
+    },
+
+    "a9lh_to_b9s":{
+        "type":"list",
+        "steps":[
+            "Homebrew Starter Kit",
+            "Godmode9",
+            "Boot9strap",
+            "SafeB9SInstaller payload",
+            "Luma3DS",
+            "Luma3DS a9lh",
+            "Homebrew Launcher",
+            "Luma Updater"
+        ]
+    },
+
+    "updating_b9s":{
+        "type":"list",
+        "steps":[
+            "Godmode9",
+            "Boot9strap",
+            "SafeB9SInstaller payload",
+            "Luma3DS",
+            "Homebrew Launcher"
+        ]
+    },
+
+    "finalize":{
+        "type":"list",
+        "steps":[
+            "Homebrew Menu",
+            "FBI",
+            "Luma Updater",
+            "Themely",
+            "DSP1",
+            "Godmode9",
+            "HBL Loader",
+            "Homebrew Launcher"
+        ]
+    }
+}
