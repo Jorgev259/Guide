@@ -130,7 +130,7 @@
                     return;
                 }
 
-                getFileBuffer_url(asset.browser_download_url, function(data) {
+                getFileBuffer_url(corsURL(asset.browser_download_url), function(data) {
                     evaluateStep(step, data, element);
                 });
             });
@@ -139,7 +139,7 @@
 
     function runDirect(item, element) {
 
-        getFileBuffer_url(item.url, function(data) {
+        getFileBuffer_url(corsURL(item.url), function(data) {
             item.steps.forEach(function(step) {
                 evaluateStep(step, data, element);
             });
