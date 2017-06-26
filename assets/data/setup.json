@@ -126,7 +126,7 @@
 
     "Luma3DS": {
         "type": "direct",
-        "url":"https://github.com/rikumax25/3SDSetup/raw/master/7zfiles/AuroraWright_Luma3DS/luma.zip",
+        "url":"https://github.com/rikumax25/3SDSetup/blob/master/localfiles/luma.zip",
         "steps": [
             {
                 "type": "extractFile",
@@ -138,7 +138,7 @@
 
     "Luma3DS a9lh":{
         "type":"direct",
-        "url":"https://github.com/rikumax25/3SDSetup/raw/master/7zfiles/AuroraWright_Luma3DS/arm9loaderhax.bin",
+        "url":"https://github.com/rikumax25/3SDSetup/blob/master/localfiles/arm9loaderhax.bin",
         "steps":[
             {
                 "type":"addFile",
